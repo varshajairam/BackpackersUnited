@@ -25,39 +25,118 @@
 case '/': echo "<a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/home.php'>Home <span class='sr-only'>(current)</span></a>					      
 											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/about.php'>About</a>											     
 											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/services.php'>Services</a>											     
-											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>											      
-											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/contacts.php'>Contacts</a>";
-					         break;					         
+											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>
+												<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/user.php'>User</a>									      
+											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/userlogin.php'>Contacts</a>
+												<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/curl.php'>All Users</a>";
+					         break;
 case '/src/home.php': echo" <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/home.php'>Home <span class='sr-only'>(current)</span></a>					      
 											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/about.php'>About</a>											     
 											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/services.php'>Services</a>											     
-											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>											      
-											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/contacts.php'>Contacts</a>";
+											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>
+												<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/user.php'>User</a>											      
+											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/userlogin.php'>Contacts</a>
+												<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/curl.php'>All Users</a>";
 					         break;
 					         case '/src/about.php': echo "<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/home.php'>Home <span class='sr-only'>(current)</span></a>
 											         <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/about.php'>About</a>
 											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/services.php'>Services</a>
 											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>
-											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/contacts.php'>Contacts</a>";
+												<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/user.php'>User</a>
+											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/userlogin.php'>Contacts</a>
+												<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/curl.php'>All Users</a>";
 					         break;
 					         case '/src/services.php': echo "<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/home.php'>Home <span class='sr-only'>(current)</span></a>
 											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/about.php'>About</a>
 											         <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/services.php'>Services</a>
 											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>
-											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/contacts.php'>Contacts</a>";
+												<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/user.php'>User</a>
+											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/userlogin.php'>Contacts</a>
+												<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/curl.php'>All Users</a>";
 					         break;
 					         case '/src/news.php': echo "<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/home.php'>Home <span class='sr-only'>(current)</span></a>
 											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/about.php'>About</a>
 											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/services.php'>Services</a>
 											         <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/news.php'>News</a>
-											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/contacts.php'>Contacts</a>";
+												<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/user.php'>User</a>
+											         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/userlogin.php'>Contacts</a>
+												<a class='nav-item backpack-font-wt nav-font  nav-link' href='/src/curl.php'>All Users</a>";
 					         break;
 					         case '/src/contacts.php': echo "<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/home.php'>Home <span class='sr-only'>(current)</span></a>
 												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/about.php'>About</a>
 												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/services.php'>Services</a>
 												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>
-												         <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/contacts.php'>Contacts</a>";
+													<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/user.php'>User</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/userlogin.php'>Contacts</a>
+													<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/curl.php'>All Users</a>";
 					         break;
+						case '/src/userlogin.php': echo "<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/home.php'>Home <span class='sr-only'>(current)</span></a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/about.php'>About</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/services.php'>Services</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>
+													<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/user.php'>User</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/userlogin.php'>Contacts</a>
+													<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/curl.php'>All Users</a>";
+					         break;
+					         case '/src/userlogin.php?error=true': echo "<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/home.php'>Home <span class='sr-only'>(current)</span></a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/about.php'>About</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/services.php'>Services</a>
+													 <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>
+													<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/user.php'>User</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/userlogin.php'>Contacts</a>
+													<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/curl.php'>All Users</a>";
+					         break;
+						case '/src/user.php': echo "<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/home.php'>Home <span class='sr-only'>(current)</span></a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/about.php'>About</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/services.php'>Services</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/user.php'>User</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/userlogin.php'>Contacts</a>
+													<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/curl.php'>All Users</a>";
+					         break;
+					         case '/src/user.php?error=true': echo "<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/home.php'>Home <span class='sr-only'>(current)</span></a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/about.php'>About</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/services.php'>Services</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/user.php'>User</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/userlogin.php'>Contacts</a>
+													<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/curl.php'>All Users</a>";
+					         break;
+					         case '/src/user.php?success': echo "<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/home.php'>Home <span class='sr-only'>(current)</span></a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/about.php'>About</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/services.php'>Services</a>
+												         <a class='navv-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/user.php'>User</a>
+												         <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/userlogin.php'>Contacts</a>
+													<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/curl.php'>All Users</a>";
+					         break;
+						case '/src/services.php?1': echo "<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/home.php'>Home <span class='sr-only'>(current)</span></a>
+                                                                                                 <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/about.php'>About</a>
+                                                                                                 <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/services.php'>Services</a>
+                                                                                                 <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>
+                                                                                                <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/user.php'>User</a>
+                                                                                                 <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/userlogin.php'>Contacts</a>
+												<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/curl.php'>All Users</a>";
+                                                 break;
+						case '/src/services.php?mostvisited': echo "<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/home.php'>Home <span class='sr-only'>(current)</span></a>
+                                                                                                 <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/about.php'>About</a>
+                                                                                                 <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/services.php'>Services</a>
+                                                                                                 <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>
+                                                                                                <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/user.php'>User</a>
+                                                                                                 <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/userlogin.php'>Contacts</a>
+												<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/curl.php'>All Users</a>";
+                                                 break;
+						case '/src/curl.php': echo "<a class='nav-item backpack-font-wt nav-font nav-link' href='/src/home.php'>Home <span class='sr-only'>(current$
+                                                                                                 <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/about.php'>About</a>
+                                                                                                 <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/services.php'>Services</a>
+                                                                                                 <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/news.php'>News</a>
+                                                                                                <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/user.php'>User</a>
+                                                                                                 <a class='nav-item backpack-font-wt nav-font nav-link' href='/src/userlogin.php'>Contacts</a>
+                                                                                                <a class='nav-item backpack-font-wt nav-font nav-link active' href='/src/curl.php'>All Users</a>";
+                                                 break;
+
+
+
 		     		}
 		     	?>
 		 	</div>
